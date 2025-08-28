@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API_BASE_URL = 'http://localhost:5000'
+const API_BASE_URL = 'https://gettaskreminder.vercel.app'
 
 function App() {
   const [tasks, setTasks] = useState([])
